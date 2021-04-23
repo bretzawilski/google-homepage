@@ -1,9 +1,30 @@
+body {
+  font-family: sans-serif;
+}
 
 header {
   display: flex;
   justify-content: flex-end;
   text-justify: right;
-  align-items: flex-start;
+  align-items: center;
+  height: 50px;
+}
+
+header p {
+  margin-right: 10px;
+  font-size: .75rem;
+}
+
+#login-button {
+  background-color: rgb(48, 122, 207);
+  color: white;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: .8rem;
 }
 
 main {
