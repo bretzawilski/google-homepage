@@ -1,0 +1,21 @@
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  text-justify: right;
+  align-items: flex-start;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+ main input {
+   border-radius: 20px;
+   width: 40rem;
+   height: 2rem;
+ }
